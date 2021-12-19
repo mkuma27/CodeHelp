@@ -7,6 +7,8 @@ class BinarySearchBasics{
         int[] even={2,6,8,10,20,27};
         int[] odd={5,8,14,23,56};
 
+
+
         int index=binarySearch(even,5,10);
         System.out.println(index);
     }
