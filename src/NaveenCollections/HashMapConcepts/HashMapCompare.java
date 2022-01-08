@@ -34,7 +34,7 @@ public class HashMapCompare {
 
         //Compare based on key Values
         System.out.println(map1.equals(map2)); //true
-        System.out.println(map1.equals(map3)); //false
+        System.out.println(map1.equals(map3)); //true
 
 
         //Compare based on key Set

@@ -3,6 +3,7 @@ package NaveenCollections.HashMapConcepts;
 HashMap extends Abstract Map and implement Map interfaces
  */
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -31,6 +32,7 @@ public class HashMapBasics {
 
         System.out.println("-----------------");
 
+
         //Iteration of Arrays
 
         //1st method
@@ -44,6 +46,7 @@ public class HashMapBasics {
         System.out.println("-------------------------------");
 
        // 2nd method Using entry Set
+
      Iterator<Map.Entry<String,String>> it1=   capitalMap.entrySet().iterator();
         while(it1.hasNext()) {
             Map.Entry<String, String> capital = it1.next();

@@ -4,15 +4,16 @@ package ArraysQuestions;
 https://leetcode.com/problems/unique-number-of-occurrences/
  */
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class UniqueElementLeetCode {
 
     public static void main(String[] args){
         int[] arr={1,2,2,1,1,3};
         uniqueElement(arr);
+
+
+
 
 
     }
